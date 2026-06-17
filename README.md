@@ -7,8 +7,8 @@ Distribuirani sistem za praćenje i kontrolu rezultata glasanja sa podrškom za 
 - Arhitektura sa liderom i pratiocima (3 replike)
 - Automatski izbor lidera
 - Preuzimanje uloge lidera nakon otkaza (fail-over)
-- Oporavak srušenih replika
-- Logovanje svih izmena (Write-Ahead Log)
+- Oporavak replika
+- Logovanje svih izmena
 - Rekonstrukcija stanja nakon restarta
 - Snapshot mehanizam za čuvanje stanja sistema
 - Sinhronizacija replika i catch-up mehanizam
